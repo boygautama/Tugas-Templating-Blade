@@ -20,9 +20,5 @@ Route::get('/data-tables', function () {
 });
 
 Route::get('/master', function () {
-    return view('backend.master');
-});
-
-Route::get('/master', function () {
     return view('backend.themes.master');
 });
